@@ -1,0 +1,148 @@
+/* Tablet screen */
+
+@media only screen and (min-width: 300px) and (max-width: 991px) {
+    .header_content h3 {
+        font-size: 60px;
+    }
+    .header_content h1 {
+        font-size: 100px;
+    }
+    #about p {
+        padding: 30px 20px;
+    }
+    #service .service_text {
+        padding: 30px 50px;
+    }
+    #testimonial p {
+        padding:0 100px 0 0 ;
+    }
+    #device .device_inner_image {
+        right: 0px;
+    }
+    #team p {
+        padding: 30px 50px;
+    }
+    #work p {
+        padding: 30px 50px;
+    }
+    #imgSliderTestimonial .slider_tl_icon_box img {
+        width: 70%;
+    }
+    #imgSliderTestimonial p {
+        margin-right: 40px;
+    }
+    #blog .blog_image {
+        text-align: center;
+    }
+    #blog .blog_img_text {
+        left: 140px;
+    }
+    #blog .blog_img_text p {
+        text-align: center;
+    }
+    
+    #blog h6 {
+        text-align: center;
+    }
+    #blog ul {
+        text-align: center;
+        margin: 20px 0;
+    }
+    #footer h3 {
+        padding: 20px 0 20px 0;
+    }
+}
+
+/* Mobile screen */
+
+@media only screen and (min-width:300px) and (max-width: 767px) {
+
+    .header_content h3 {
+        font-size: 40px;
+    }
+
+    .header_content h1 {
+        font-size: 50px;
+    }
+    #about p {
+        padding: 30px 0;
+    }
+    #amazingService .amazing_service_divider::after {
+        display: none;
+        background: #fff;
+        margin:0;
+    }
+    #service .service_text {
+        padding: 30px 0;
+    }
+    #testimonial .carousel-item .testimonial_icon_box {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #testimonial p {
+
+        padding:0;
+        text-align: center;
+        margin: 0 80px;
+    }
+    #testimonial h6 {
+        text-align: center;
+    }
+    #testimonial h6::before {
+        display: none;
+        background:#f8f8f8;
+        margin-right: 0;
+    }
+    
+    #device .device_image img {
+        width: 70%;
+    }
+    #device .device_inner_image {
+        top: 30px;
+        right: -50px;
+
+    }
+    #service {
+        padding-top: 200px;
+    }
+    #team p {
+        padding: 30px 0;
+    }
+
+    #work p {
+        padding: 30px 0;
+    }
+    #imgSliderTestimonial .slider_tl_icon_box {
+        text-align: center;
+    }
+    #imgSliderTestimonial .slider_tl_icon_box img {
+        width: 40%;
+    }
+    #imgSliderTestimonial p {
+        margin: 30px;
+        text-align: center;
+    }
+    #imgSliderTestimonial h6 {
+        text-align: center;
+    }
+    #imgSliderTestimonial h6::before {
+        display: none;
+        background:#fff;
+        margin-right: 0;
+    }
+    #blog .blog_image img {
+        width: 80%;
+    }
+    #blog .blog_img_text {
+        left: 20px;
+        width: 60px;
+        height: 70px;
+    }
+    #blog .blog_img_text h5 {
+        font-size: 20px;
+    }
+    #footer img {
+        width: 100%;
+    }
+
+}
